@@ -1,0 +1,33 @@
+section{
+    display: flex;
+}
+section, div{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+section div{
+    flex:1;
+    margin-right: 5px;
+    height: 280px;
+    width: 25.5%;
+}
+section div img{
+    width: 200px;
+    height: 280px;
+}
+img:nth-child(1){
+    width: 98%;
+}
+.s1{
+    margin: 5px;
+    border: 2px solid blue;
+    display: flex;
+    background-color: royalblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: xx-large;
+}
+.s1 img{
+    height: 230px;
+}
